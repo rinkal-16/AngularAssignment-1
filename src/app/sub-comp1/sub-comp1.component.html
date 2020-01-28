@@ -1,0 +1,60 @@
+
+
+<div class="contianer-1">
+<p>Sub comp 1 works!</p>
+<section>
+    Description
+</section>
+<button routerLink="">Back</button> 
+</div>
+<style>
+    .contianer-1{
+        width: 1200px;
+        padding: 500px 50px;
+        text-align: center;
+    }
+    .contianer-2 {
+        width: 1200px;
+        padding: 10px 200px;
+        margin:0 auto;
+        text-align: center;
+    }
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
+    align-self: auto;
+    margin: 100px 600px;
+    }
+
+    td, th {
+    border: 1px solid grey;
+    text-align: center;
+    padding: 8px;
+    }
+
+    tr:nth-child(even) {
+    background-color: yellowgreen;
+    }
+</style>
+
+
+
+<div class="container-2">
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+   
+
+
+   
+    <tr *ngFor="let number of user">
+    <th>{{number.id}}</th>
+    <th>{{number.name}}</th>
+    </tr>
+    </table>
+
+</div>
+

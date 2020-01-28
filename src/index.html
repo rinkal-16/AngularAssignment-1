@@ -6,8 +6,102 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+<style>
+  .header {
+    border-radius: 4px;
+    overflow: hidden; 
+    background-color:darkcyan; 
+    padding: 12px; 
+    align-self: auto;
+    text-align: center;
+    font-size: 18px; 
+    line-height: 25px; 
+    }
+  .header a {
+  float: left;
+  color: whitesmoke;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header-right {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+  a,
+  a:visited,
+  a:hover {
+  color: #c4cdd6;
+  text-decoration: none;
+}
+
+a:hover {
+color: #c7d4e0;
+}
+
+.footer {
+    border-radius: 4px;
+    overflow: hidden; 
+    background-color:darkcyan; 
+    padding: 12px; 
+    align-self: auto;
+    text-align: center;
+    font-size: 18px; 
+    height: 20px;
+    width: 100%;
+    position: relative;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightseagreen;
+    color: white;
+    text-align: center; 
+}
+.sidebar {
+  width : 25%;
+  text-align: top;
+}
+
+</style>
 <body>
-  <app-root></app-root>
+  <header>
+    <div class="header">
+      <a href="/">Offers</a>
+      <div class="header-right">
+        <a href="Contact">Contact</a>
+        <a href="About">About</a>
+      </div> 
+      </div> 
+  </header>
+  <section>
+    <app-root></app-root>
+  </section>
+
+  <section>
+
+  </section>
+  
+  
+  <footer>
+    <div class="footer">
+      <a href="/">This is Footer</a>
+      <div class="header-right">
+          
+      
+      </div> 
+  </footer>
 </body>
 </html>
+<app-root></app-root>

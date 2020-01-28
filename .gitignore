@@ -9,6 +9,10 @@
 
 # dependencies
 /node_modules
+/e2e
+/assets
+
+
 
 # profiling files
 chrome-profiler-events*.json
@@ -30,6 +34,8 @@ speed-measure-plugin*.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+.angular.json
+
 
 # misc
 /.sass-cache
